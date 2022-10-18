@@ -1,0 +1,435 @@
+/* 这里放置的CSS将应用于所有皮肤 */
+
+/* WIKI背景图 */
+body {
+    background:url("https://patchwiki.biligame.com/images/fnmzl/b/b7/ibilksfavkzyicbky0cr856p9hr2v7w.jpg") no-repeat fixed 50% 0;
+    background-size:cover;
+}
+
+body,html {
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0
+}
+body {
+    cursor: url(https://patchwiki.biligame.com/images/fnmzl/a/ac/mp6a4ql101k2g1mw2vaohtvvrvbbegr.png), auto;
+}
+/* WIKI页面透明化 */
+.game-bg {
+    background:rgba(0,0, 0, 68%);
+}
+.wiki-header {
+    background: transparent;
+}
+
+
+.BOX-1 {
+    margin-top: 15px;
+    overflow: hidden;
+}
+.BOX-title-1 {
+}
+.wiki-header .wiki-nav {
+    border: 1px solid rgba(0,0,0,0.61);
+    background: rgba(249,249,249,0.75);
+    border-top: 1px solid rgba(0,0,0,0.61);
+    border-radius: 0px;
+    box-shadow: 0px 3px 3px rgba(35, 35, 35, 0.38);
+}
+
+.menu-wrap .wiki-menu-li-1 {
+    background: transparent;
+}
+.menu-wrap .wiki-menu-li-1 {
+    border-bottom: 0px solid rgba(0,0,0,.16);
+}
+.wiki-header .wiki-nav .nav-search-box {
+    border-bottom: 0px solid rgba(0, 0, 0, 0.16);
+}
+.wiki-header .wiki-nav-celling .celling-box {
+    border-bottom: 0px solid #000;
+}
+.test111111{
+    padding: 15px 0;
+}
+
+.bili-section-normal, .bili-section-primary {
+    font-family: "Microsoft YaHei", Arial, sans-serif, "PingFang SC";
+    font-size: 14px;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    line-height: 14px;
+    background: #fff;
+    padding: 11px 20px;
+    overflow: hidden;
+    box-shadow: 0px 3px 3px rgba(35, 35, 35, 0.38);
+    border: 1px solid rgba(0, 0, 0, 0.86);
+    border-radius: 0px;
+}
+
+/* 首页CSS */
+
+.BILIBILI-BOX {width:100%;margin-bottom:20px;}
+.BOX-title-2 {padding: 10px 0px 5px 0px;font-size: 14px;font-weight: bold;border-bottom: 1px solid #384348;}
+.BOX-N {width:100%;padding:0px;overflow:hidden;}
+.BOX-GD {color:#f7f7f7;border: 1px solid #f7f7f7;padding: 0px 5px;border-radius: 50%;}
+.BOX-AN-50 {width:50%}
+.BOX-AN-25 {width:25%}
+.BOX-AN-20 {width:20%}
+.BOX-AN2 {width:100%;display: inline-block;height:30px;line-height:30px;padding-left:35px;padding-right:5px;color:#404040;}
+.BOX-AN2:hover {background:#000;color:#f7f7f7;}
+@media only screen and (max-width:759px){
+    .BOX-AN-25 {width:50%}
+    .BOX-AN-20 {width:50%}
+}
+
+.update-log .log-title {display: none;}
+.update-log .bili-list-group {padding: 0px 0px;}
+.update-log .read-more {display: none;}
+
+.carousel.big-carousel .carousel-indicators li, .carousel.big-carousel .carousel-indicators li.active {width: 8px;height: 8px;}
+.carousel.big-carousel .carousel-indicators {bottom: -2.4em;margin-left: -30%;margin-bottom: 45px;}
+.carousel.big-carousel {margin-bottom: 15px;}
+
+.BOX-1 .BOX-title-2 {padding: 10px 0px 5px 0px;}
+.BOX-1 .BOX-N {padding:5px 10px;}
+
+.BOX-2 .BOX-title-1 {border-radius: 8px;}
+.BOX-2 {border:1px solid #404040;border-radius: 4px;padding:2px}
+.BOX-2 .BOX-2-1 {background:#f7f7f7;border:1px solid #404040;border-radius: 8px;padding:10px;}
+
+.BOX-3 .BOX-title-1 {border-radius: 8px;}
+.BOX-3 {background:#f7f7f7;border-radius: 8px;padding:10px}
+
+.BOX-4 .BOX-title-1 {border-radius: 8px 8px 0px 0px;}
+.BOX-4 {background:#f7f7f7;border-radius: 8px;padding:0px;}
+.BOX-4 .BOX-N {padding:5px 10px;}
+
+.BOX-5 .BOX-title-1 {border-radius: 8px 8px 0px 0px;background:#262626;color:#f7f7f7;}
+.BOX-5 .BOX-title-2 {padding: 10px 0px 5px 0px;border-bottom: 1px solid #262626;}
+.BOX-5 {background:#404040;border-radius: 8px;padding:0px;}
+.BOX-5 .BOX-N {padding:5px 10px;border:2px solid #262626;border-top:0px solid ;box-shadow: inset 0 0 1px 2px #000;color:#f7f7f7;border-radius: 0px 0px 8px 8px;}
+.BOX-5 .bili-section-normal,.BOX-5 .bili-section-primary {color: #f7f7f7;background: #626262;border: 1px solid rgb(0, 0, 0);}
+.BOX-5 .bili-section-normal:hover {color: #fff;background: #000;border: 1px solid rgba(0, 0, 0, 0.1);cursor: pointer;}
+.BOX-5 .BOX-zt {color:#f7f7f7}
+.BOX-5 .update-log a {color: #f7f7f7 !important;}
+.BOX-5 .BOX-AN2 {width:100%;display: inline-block;height:30px;line-height:30px;padding-left:35px;padding-right:5px;color: #f7f7f7;background: #626262;}
+.BOX-5 .BOX-AN2:hover {color: #fff;background: #000;}
+
+/* p标签修正 */
+p {
+    margin: 0 0 0px;
+}
+
+
+/*筛选按钮被选中*/
+li.btn.cardSelectOption.selected {
+    color: #333 !important;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+/*smw更多结果修正*/
+.smw-template-furtherresults {
+    display:none;
+}
+
+/*图片自适应*/
+img{max-width:100%;height:auto;margin:0 auto;text-align:center;}
+
+/*头像样式*/
+.img-tx img {
+    width: 20px;
+    height: 20px;
+    background:rgba(0, 0, 0, 0.46);margin:0px 1px;
+}
+.img-tx2 img {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 2px #000;
+    margin:0px 1px;
+}
+
+/* 评论区遮挡悬浮框修正 */
+.comment-replybox {
+    position: unset;
+    border-bottom: 1px solid rgba(0,0,0,0.16);
+    padding: 16px 0;
+}
+.comment-toolbar {
+    position: unset;
+}
+
+/* 悬浮 */
+.iteminfo {display:none;}
+.itemhover:hover  .iteminfo{display:block;}
+
+/* tabber选项卡预置样式 */
+.tabber .tabbertab {
+    padding: 10px;
+    border: 1px solid #404040;
+    border-top-color: rgb(64, 64, 64);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 0;
+}
+ul.tabbernav {
+    margin: 0;
+    padding: 12px 0;
+    border: 1px solid #404040;
+    font: bold 12px Verdana,sans-serif;
+    background: #404040;
+    border-left: 0px;
+    border-right: 0px;
+}
+ul.tabbernav li a {
+    padding: 12px 10px;
+    margin: 0px;
+    border: 1px solid #404040;
+    border-bottom: none;
+    background: #404040;
+    text-decoration: none;
+}
+ul.tabbernav li.tabberactive a {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #404040;
+    border-top: 1px solid #404040;
+    color: #404040 !important;
+}
+ul.tabbernav li a:link {
+    color: #fff;
+}
+ul.tabbernav li a:hover {
+    color: #404040;
+    background: #fff;
+    border-color: #404040;
+    border: 1px solid #404040;
+}
+ul.tabbernav li.tabberactive a:hover {
+    color: #404040 !important;
+    background: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
+/*tabber选项卡加载状态隐藏*/
+.tabber:not(.tabberlive){
+    display:none;
+}
+
+/* tab-panel选项卡预置样式 */
+.tab-panel {
+    display: block;
+    height: auto;
+    padding: 5px 0px;
+    text-decoration: none;
+    width: 76px;
+    text-align: center;
+    color: #fff;
+}
+.resp-tabs-list li {
+    border-left: 0px solid rgba(0, 0, 0, 0.16);
+    float: left;
+    background: #404040;
+    border: 1px solid #404040;
+}
+.resp-tabs-list li:last-child {
+    border: 1px solid #404040;
+}
+.resp-tabs-list li.active .tab-panel, .tab-panel:hover {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    font-weight: bold;
+    background: #fff;
+}
+@media only screen and (max-width:759px){
+    ul.tabbernav li a {
+        display: inline-block;
+    }
+    ul.tabbernav {
+        padding: 0px;
+    }
+    .resp-tabs .resp-tabs-list {
+        white-space: normal;
+        overflow-x: auto;
+    }
+}
+/* 首页常用入口 */
+.box-sy {
+    margin-left:-5px;
+    margin-right:-5px;
+    overflow:hidden;
+}
+.box-icon {
+    float:left;
+    width:25%;
+    padding:15px 5px;
+}
+@media only screen and (max-width:759px){
+    .box-sy {
+        margin-left:-5px;
+        margin-right:-5px;
+        overflow:hidden;
+    }
+    .box-icon {
+        float:left;
+        width:33%;
+        padding:5px;
+    }
+}
+
+
+/* 首页分类隐藏 */
+.page-首页 .catlinks {
+    display: none;
+}
+
+/* 模板:折叠面板 样式修正 */
+.panel, .panel .row .panel-title {
+    padding: 0px 0;
+}
+
+
+/* 模板:黑幕 */
+.heimu {
+    background:#000;
+    color:#000;
+}
+.heimu:hover {background:#000;color:#fff;}
+
+
+/* 模板:资料卡片 */
+.information {margin:0px 10px 10px 0px;width:300px;overflow: hidden;}
+@media only screen and (max-width:759px){
+    .information {width:100%;margin:0px;}
+}
+
+/* 冻结表格首行 */
+.freeze th,.freeze td{
+    position:sticky;
+    top:49px;
+}
+@media(max-width:768px){
+    .freeze th,.freeze td{
+        top:-1px;
+    }
+}
+
+
+/* 更新日志调整 */
+.update-log .bili-list-group .bili-list-group-item .log-label {
+    font-family: "Microsoft YaHei", Arial, sans-serif, "PingFang SC";
+    border-radius: 2px;
+    width: 36px;
+    min-width: 36px;
+    font-size: 12px;
+    background: #989898;
+    color: #fff;
+}
+.update-log .bili-list-group {
+    padding: 10px 0px;
+    margin-left: 0;
+}
+.update-log .bili-list-group .bili-list-group-item .log-content {
+    width: 230px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/*表格*/
+.wikitable {
+    background-color: rgba(255, 255, 255, 0.17);
+    color: #fff;
+    margin: 1em 0;
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+    box-shadow: 0px 3px 3px rgba(35, 35, 35, 0.38);
+}
+.wikitable > tr > th, .wikitable > * > tr > th {
+    background-color: rgba(0, 0, 0, 0.67);
+    text-align: center;
+    color: #fff;
+}
+.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0.2em 0.4em;
+}
+.BOX-zt,.log-content a{
+    color:#fff!important;
+}
+.mw-body h1, .mw-body-content h1 {
+    font-size: 1.8em;
+    color: #fff;
+}
+.mw-parser-output,.pc-serve-msg,.wiki-componment-rank .rank-title,.wiki-componment-rank .rank-num,.comments-title{
+    color:#fff;
+}
+.comment-text,.comment-footer,.comment-container-top > div:first-child,.comment-paginator span{
+    color:#fff!important;
+}
+.noarticletext{
+    color:#fff;
+}
+.list-img p{
+    display: flex;
+}
+a{
+    cursor: url(https://patchwiki.biligame.com/images/fnmzl/a/ac/mp6a4ql101k2g1mw2vaohtvvrvbbegr.png), auto;
+}
+.mw-headline{
+    color:#fff!important;
+}
+
+#clock {
+    position:relative;
+    width: 269px;
+    height: 232px;
+    background: url('https://patchwiki.biligame.com/images/fnmzl/6/67/5f1uygep1jiyecoyeoumof2qmf2agag.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+#seconds {
+    left: 135px;
+    top: 117px;
+    height: 2px;
+    width: 55px;
+    list-style: none;
+    position: absolute;
+    background-color: #000;
+    transform-origin: 0 50%;
+    transform: rotateZ(-90deg);
+}
+
+#minutes {
+    left: 135px;
+    top: 116px;
+    height: 4px;
+    width: 62px;
+    list-style: none;
+    position: absolute;
+    background-color: #000;
+    transform-origin: 0 50%;
+    transform: rotateZ(-90deg);
+}
+
+#hours {
+    left: 135px;
+    top: 116px;
+    height: 6px;
+    width: 83px;
+    list-style: none;
+    position: absolute;
+    background-color: #000;
+    transform-origin: 0 50%;
+    transform: rotateZ(-90deg);
+}
