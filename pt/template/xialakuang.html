@@ -1,0 +1,11 @@
+<includeonly>{{#ifeq:{{{1|}}}|开始|<div class="panel-group" id="mc_accordion-{{{主框|1}}}">}}{{#ifeq:{{{1}}}|结束|</div>}}{{#ifeq:{{{1}}}|内容结束|</div></div>}}{{#if:{{{标题|}}}|<div class="panel panel-{{{样式|primary}}}"><div class="panel-heading"><span class="clearfix show paneltitle" data-toggle="collapse" data-parent="#mc_accordion-{{{主框|1}}}" data-target="#mc_collapse-{{#invoke:ToAnchor|us|{{urlencode:{{{选项|1}}}}}}}"><span class="panel-title pull-left {{#if:{{{badge|}}}| badge}}">{{#if:{{{badge|}}}|{{{标题}}}|<span style="font-weight:bold;color:{{#switch:{{{样式|primary}}}|primary=#FFF|success=#3c763d|info=#31708f|warning=#8a6d3b|danger=#a94442}}">{{{标题}}}</span>}}</span><span class="badge pull-right">展开/折叠</span></span></div><div id="mc_collapse-{{#invoke:ToAnchor|us|{{urlencode:{{{选项|1}}}}}}}" class="panel-body panel-collapse collapse {{#if:{{{展开|}}}|in}}">}}{{#css:
+    .panel, .panel .row .panel-title {
+    padding: 0px 0;
+    }
+    }}</includeonly><noinclude>
+    ==描述==
+
+    <br/>
+    这是生成一个选项组的框架
+
+</noinclude>
