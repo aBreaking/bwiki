@@ -1,0 +1,124 @@
+<div class="center list-img">
+
+    <div class="main-line-wrap camp">
+        <div class="resp-tabs">
+            <ul class="resp-tabs-list clearfix ">
+                <li class="active bili-list-style"><span class="tab-panel">耶格尔事务所</span></li>
+                <li class="bili-list-style"><span class="tab-panel">碧眼之蛇</span></li>
+                <li class="bili-list-style"><span class="tab-panel">长刀党</span></li>
+                <li class="bili-list-style"><span class="tab-panel">王权馆</span></li>
+                <li class="bili-list-style"><span class="tab-panel">不夜城</span></li>
+                <li class="bili-list-style"><span class="tab-panel">圣堂</span></li>
+                <li class="bili-list-style"><span class="tab-panel">支仓氏</span></li>
+                <!--想添加更多标签,可以复制上面一行-->
+            </ul>
+            <div class="resp-tabs-container">
+                <div class="resp-tab-content" style="display: block">
+                    {{#ask: [[分类:噬灵者]] [[阵营::耶格尔事务所]]
+                    |? 图鉴=图鉴
+                    |named args=yes
+                    |format=template
+                    |template=噬灵者/图鉴
+                    }}
+                </div>
+                <div class="resp-tab-content">
+                    {{#ask: [[分类:噬灵者]] [[阵营::碧眼之蛇]]
+                    |? 图鉴=图鉴
+                    |named args=yes
+                    |format=template
+                    |template=噬灵者/图鉴
+                    }}
+                </div>
+                <div class="resp-tab-content">
+                    {{#ask: [[分类:噬灵者]] [[阵营::长刀党]]
+                    |? 图鉴=图鉴
+                    |named args=yes
+                    |format=template
+                    |template=噬灵者/图鉴
+                    }}
+                </div>
+                <div class="resp-tab-content">
+                    {{#ask: [[分类:噬灵者]] [[阵营::王权馆]]
+                    |? 图鉴=图鉴
+                    |named args=yes
+                    |format=template
+                    |template=噬灵者/图鉴
+                    }}
+                </div>
+                <div class="resp-tab-content">
+                    {{#ask: [[分类:噬灵者]] [[阵营::不夜城]]
+                    |? 图鉴=图鉴
+                    |named args=yes
+                    |format=template
+                    |template=噬灵者/图鉴
+                    }}
+                </div>
+                <div class="resp-tab-content">
+                    {{#ask: [[分类:噬灵者]] [[阵营::圣堂]]
+                    |? 图鉴=图鉴
+                    |named args=yes
+                    |format=template
+                    |template=噬灵者/图鉴
+                    }}
+                </div>
+                <div class="resp-tab-content">
+                    {{#ask: [[分类:噬灵者]] [[阵营::支仓氏]]
+                    |? 图鉴=图鉴
+                    |named args=yes
+                    |format=template
+                    |template=噬灵者/图鉴
+                    }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{#css:
+pre{
+background-color: transparent !important;
+border: none !important;
+padding: 0px !important;
+}
+
+.camp .tab-panel{
+width: 129px !important;
+height: 35px !important;
+align-content: center !important;
+background: linear-gradient(227deg, #ffba4d , #222222, 15%, #060606) !important;
+font-size: 14px !important;
+font-weight: 500 !important;
+color: #ffffff !important;
+display: inline-grid !important;
+}
+
+.camp .tab-panel:hover{
+background: #be9b64 !important;
+font-weight: bold !important;
+}
+
+.camp li.bili-list-style {
+margin: 10px 5px 0px 5px !important;
+}
+
+.camp  li.bili-list-style.active .tab-panel{
+background: #be9b64 !important;
+font-weight: bold !important;
+}
+
+.camp  ul.resp-tabs-list{
+margin: 0px !important;
+}
+
+.camp .resp-tab-content pre{
+display: table-row;
+}
+
+.camp .resp-tab-content span{
+margin: 0px 9px 0 5px !important;
+}
+
+.camp .resp-tabs-container{
+margin: 10px 0px 0px 0px !important;
+}
+
+}}
