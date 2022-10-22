@@ -10,65 +10,19 @@
                 <li class="bili-list-style"><span class="tab-panel">不夜城</span></li>
                 <li class="bili-list-style"><span class="tab-panel">圣堂</span></li>
                 <li class="bili-list-style"><span class="tab-panel">支仓氏</span></li>
-                <!--想添加更多标签,可以复制上面一行-->
             </ul>
             <div class="resp-tabs-container">
-                <div class="resp-tab-content" style="display: block">
-                    {{#ask: [[分类:噬灵者]] [[阵营::耶格尔事务所]]
+                {{#arraymap: 耶格尔事务所,碧眼之蛇,长刀党,王权馆,不夜城,圣堂,支仓氏| ,|@
+                | <div class="resp-tab-content" {{#ifeq:@|耶格尔事务所|  style="display: block" | }} >
+                    {{#ask: [[分类:噬灵者]] [[阵营::@]]
                     |? 图鉴=图鉴
                     |named args=yes
                     |format=template
                     |template=噬灵者/图鉴
                     }}
                 </div>
-                <div class="resp-tab-content">
-                    {{#ask: [[分类:噬灵者]] [[阵营::碧眼之蛇]]
-                    |? 图鉴=图鉴
-                    |named args=yes
-                    |format=template
-                    |template=噬灵者/图鉴
-                    }}
-                </div>
-                <div class="resp-tab-content">
-                    {{#ask: [[分类:噬灵者]] [[阵营::长刀党]]
-                    |? 图鉴=图鉴
-                    |named args=yes
-                    |format=template
-                    |template=噬灵者/图鉴
-                    }}
-                </div>
-                <div class="resp-tab-content">
-                    {{#ask: [[分类:噬灵者]] [[阵营::王权馆]]
-                    |? 图鉴=图鉴
-                    |named args=yes
-                    |format=template
-                    |template=噬灵者/图鉴
-                    }}
-                </div>
-                <div class="resp-tab-content">
-                    {{#ask: [[分类:噬灵者]] [[阵营::不夜城]]
-                    |? 图鉴=图鉴
-                    |named args=yes
-                    |format=template
-                    |template=噬灵者/图鉴
-                    }}
-                </div>
-                <div class="resp-tab-content">
-                    {{#ask: [[分类:噬灵者]] [[阵营::圣堂]]
-                    |? 图鉴=图鉴
-                    |named args=yes
-                    |format=template
-                    |template=噬灵者/图鉴
-                    }}
-                </div>
-                <div class="resp-tab-content">
-                    {{#ask: [[分类:噬灵者]] [[阵营::支仓氏]]
-                    |? 图鉴=图鉴
-                    |named args=yes
-                    |format=template
-                    |template=噬灵者/图鉴
-                    }}
-                </div>
+                |
+                }}
             </div>
         </div>
     </div>
