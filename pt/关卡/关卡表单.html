@@ -1,0 +1,86 @@
+<noinclude>
+	这是“关卡表单”表单。要用这个表单创建一个页面，在下面输入页面名；如果使用这个名称的页面已存在，您将被送到编辑那个页面的表单。
+
+	{{#forminput:form=关卡表单|placeholder=用 “关卡N-M” 的格式命名}}
+
+</noinclude><includeonly>
+	<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+	{{{for template|关卡}}}
+
+==基本信息==
+	{| class="formtable"
+	! 关卡章节:
+	| {{{field|关卡章节|input type=text|mandatory}}}
+	|-
+	! 关卡名:
+	| {{{field|关卡名|input type=text|mandatory}}}
+	|-
+	! 关卡描述:
+	| {{{field|关卡描述|input type=textarea}}}
+	|}
+
+==关卡内容==
+	{| class="formtable"
+	! 推荐等级:
+	| {{{field|推荐等级|input type=text}}}
+	|-
+	! 消耗体力:
+	| {{{field|消耗体力|input type=text}}}
+	|-
+	! 敌方详情:
+	| {{{field|敌方详情|input type=textarea}}}
+	|-
+	! 关卡类型:
+	| {{{field|关卡类型|input type=text}}}
+	|-
+	! 关卡目标:
+	| {{{field|关卡目标|input type=textarea}}}
+	|-
+	! 道具奖励:
+	| {{{field|道具奖励|input type=textarea}}}
+	|-
+	! 关卡图片1:
+	| {{{field|关卡图片1|input type=text|uploadable}}}
+	|-
+	! 关卡图片2:
+	| {{{field|关卡图片2|input type=text|uploadable}}}
+	|}
+
+==攻略==
+	{| class="formtable"
+	! 关卡攻略:
+	| {{{field|关卡攻略|input type=textarea}}}
+	|-
+	! 文字攻略:
+	| {{{field|文字攻略|input type=textarea}}}
+	|-
+	! 视频攻略:
+	| {{{field|视频攻略|input type=textarea}}}
+	|}
+	{{{end template}}}
+
+	{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+	{{{standard input|save}}}
+	{{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{#css:
+form th{
+color : white !important;
+padding: 7px 5px;
+}
+
+form textarea{
+margin: 5px;
+max-width:50% !important;
+}
+
+form a{
+color: #ef5252;
+}
+
+form label{
+color : white !important;
+}
+
+}}
