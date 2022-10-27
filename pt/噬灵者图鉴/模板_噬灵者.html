@@ -21,7 +21,7 @@
 |角色={{{角色|}}}
 |专属烙印={{{专属烙印|}}}
 |专属灵纹突破={{{专属灵纹突破|}}}
-|技能一图标={{{技能一图标|}}}
+|技能一图标{{{技能一图标|}}}
 |技能一名称={{{技能一名称|}}}
 |技能一效果={{{技能一效果|}}}
 |技能二图标={{{技能二图标|}}}
@@ -43,7 +43,7 @@
 |个人经历={{{个人经历|}}}
 |过往追溯={{{过往追溯|}}}
 |语音={{{语音|}}}
-}}
+}}{{#default_form:噬灵者}}
 
 {{#ifeq:{{{姓名}}}||| [[分类:噬灵者]] }}
 
@@ -55,37 +55,31 @@
         |-
         | 立绘
         |-
-        | {{{立绘}}}
+        | {{图片格式化|{{{立绘}}}}}
         |}
     </div>
 </div>
 
 <div class="main-line-wrap mytabs">
     <div class="resp-tabs">
-        {{TabMenu }}
+        {{TabMenu | zs={{{专属烙印|}}} | dmjq={{{夺命技巧图标|}}}  }}
 
         <div class="resp-tabs-container">
             <div class="resp-tab-content" style="display:block">
                 {{BaseInfo|name={{{姓名|}}} |star={{{稀有度|}}}|job={{{职业|}}} |tag={{{角色|}}} }}
             </div>
 
-            <div class="resp-tab-content">
+            {{#if:{{{专属烙印}}}
+            |<div class="resp-tab-content">{{专属烙印| {{图片格式化|{{{ 专属烙印 }}}}}|{{{专属灵纹突破}}}}}</div>
+            |}}
 
-                {| class="wikitable " style="width:100%; text-align:center"
-                |-
-                |colspan=2"  class="decisive" style="text-align:center ;  " |专属
-                |-
-                | 专属烙印|| {{{专属烙印|}}}
-                |-
-                | 专属灵纹突破 || {{{专属灵纹突破|}}}
-                |}
-            </div>
+
 
             <div class="resp-tab-content">
 
                 {| class="wikitable " style="width:100%; text-align:center"
                 |-
-                | rowspan=8| 属性 ||  生命 1059
+                | rowspan=8 style="width:25%;" | 属性 ||  生命 {{{生命|}}}
                 |-
                 | 攻击 {{{攻击|}}}
                 |-
@@ -106,26 +100,23 @@
 
             <div class="resp-tab-content jn">
                 {{Skill
-                |firstImg= {{{技能一图标|}}}|firstName={{{技能一名称|}}}|firstDesc={{{技能一效果|}}}
-                |secondImg= {{{技能二图标|}}}|secondName={{{技能二名称|}}}|secondDesc={{{技能二效果|}}}
-                |thirdImg= {{{技能三图标|}}}|thirdtName={{{技能三名称|}}}|thirdDesc={{{技能三效果|}}}
+                |firstImg= {{图片格式化|{{{技能一图标}}}}} |firstName={{{技能一名称|}}}|firstDesc={{{技能一效果|}}}
+                |secondImg= {{图片格式化|{{{技能二图标}}}}}|secondName={{{技能二名称|}}}|secondDesc={{{技能二效果|}}}
+                |thirdImg= {{图片格式化|{{{技能三图标}}}}}|thirdtName={{{技能三名称|}}}|thirdDesc={{{技能三效果|}}}
                 }}
             </div>
 
             <div class="resp-tab-content">
                 {{BigSkill
                 |name=灵纹解放
-                |img= {{{灵纹解放图标|}}}
+                |img= {{图片格式化|{{{灵纹解放图标}}}}}
                 |desc={{{灵纹解放描述|}}}
                 }}
             </div>
-            <div class="resp-tab-content">
-                {{BigSkill
-                |name=队长技能（夺命技巧）
-                |img= {{{夺命技巧图标|}}}
-                |desc={{{夺命技巧描述|}}}
-                }}
-            </div>
+
+            {{#if: {{{ 夺命技巧描述| }}}
+            |<div class="resp-tab-content">{{BigSkill|name=队长技能（夺命技巧）|img= {{图片格式化|{{{夺命技巧图标}}}}} |desc={{{夺命技巧描述|}}}}}</div>
+            |}}
 
             <div class="resp-tab-content">
                 {{Archive

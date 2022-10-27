@@ -1,0 +1,189 @@
+<noinclude>
+	这是“噬灵者表单”表单。要用这个表单创建一个页面，在下面输入页面名；如果使用这个名称的页面已存在，您将被送到编辑那个页面的表单。
+
+	{{#forminput:form=噬灵者表单}}
+
+</noinclude><includeonly>
+	<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+	{{{for template|噬灵者}}}
+
+	==基本信息==
+	{| class="formtable"
+	! 姓名:
+	| {{{field|姓名|input type=text|mandatory|restricted|default={{PAGENAME}} }}}
+	|-
+	! 自我介绍:
+	| {{{field|自我介绍|input type=textarea|rows=4|cols=34|placeholder=一句话来描述自己}}}
+	|-
+	! 阵营:
+	| {{{field|阵营|input type=dropdown|values=耶格尔事务所,碧眼之蛇,长刀党,王权馆,不夜城,圣堂,支仓氏,虚鼠|default=耶格尔事务所}}}
+	|-
+	! 稀有度:
+	| {{{field|稀有度|input type=dropdown|values=一星,二星,三星,四星,五星|default=五星}}}
+	|-
+	! 职业:
+	| {{{field|职业|input type=text}}}
+	|-
+	! 角色:
+	| {{{field|角色|input type=text}}}
+	|-
+	! 头像:
+	| {{{field|头像|input type=text|uploadable|placeholder=请上传头像}}}
+	|-
+	! 图鉴:
+	| {{{field|图鉴|input type=text|uploadable|uploadable|placeholder=请上传图鉴}}}
+	|-
+	! 立绘:
+	| {{{field|立绘|input type=text|uploadable|uploadable|placeholder=请上传立绘}}}
+	|}
+
+	==属性==
+	{| class="formtable"
+	! 生命:
+	| {{{field|生命|input type=text}}}
+	|-
+	! 攻击:
+	| {{{field|攻击|input type=text}}}
+	|-
+	! 速度:
+	| {{{field|速度|input type=text}}}
+	|-
+	! 防御:
+	| {{{field|防御|input type=text}}}
+	|-
+	! 暴击:
+	| {{{field|暴击|input type=text}}}
+	|-
+	! 暴击伤害:
+	| {{{field|暴击伤害|input type=text}}}
+	|-
+	! 技巧:
+	| {{{field|技巧|input type=text}}}
+	|-
+	! 抵抗:
+	| {{{field|抵抗|input type=text}}}
+	|-
+	! 命中:
+	| {{{field|命中|input type=text}}}
+	|-
+	! 格挡:
+	| {{{field|格挡|input type=text}}}
+	|-
+	! 暴抗:
+	| {{{field|暴抗|input type=text}}}
+	|}
+
+	==专属==
+	{| class="formtable"
+	! 专属烙印:
+	| {{{field|专属烙印|input type=text|uploadable|placeholder=请上传专属烙印图标}}}
+	|-
+	! 专属灵纹突破:
+	| {{{field|专属灵纹突破|input type=text}}}
+	|}
+
+	==技能==
+	{| class="formtable"
+	! 技能一图标:
+	| {{{field|技能一图标|input type=text|uploadable|placeholder=请上传技能一图标}}}
+	|-
+	! 技能一名称:
+	| {{{field|技能一名称|input type=text}}}
+	|-
+	! 技能一效果:
+	| {{{field|技能一效果|input type=text}}}
+	|-
+	! 技能二图标:
+	| {{{field|技能二图标|input type=text|uploadable|placeholder=请上传技能二图标}}}
+	|-
+	! 技能二名称:
+	| {{{field|技能二名称|input type=text}}}
+	|-
+	! 技能二效果:
+	| {{{field|技能二效果|input type=text}}}
+	|-
+	! 技能三图标:
+	| {{{field|技能三图标|input type=text|uploadable|placeholder=请上传技能三图标}}}
+	|-
+	! 技能三名称:
+	| {{{field|技能三名称|input type=text}}}
+	|-
+	! 技能三效果:
+	| {{{field|技能三效果|input type=text}}}
+	|}
+
+	==灵纹解放==
+	{| class="formtable"
+	! 灵纹解放图标:
+	| {{{field|灵纹解放图标|input type=text|uploadable|placeholder=请上传灵纹解放图标}}}
+	|-
+	! 灵纹解放描述:
+	| {{{field|灵纹解放描述|input type=text}}}
+	|}
+
+	==队长技能（夺命技巧）==
+	{| class="formtable"
+	! 夺命技巧图标:
+	| {{{field|夺命技巧图标|input type=text|uploadable|placeholder=请上传夺命技巧图标}}}
+	|-
+	! 夺命技巧描述:
+	| {{{field|夺命技巧描述|input type=text}}}
+	|}
+
+	==档案==
+	{| class="formtable"
+	! 日配CV:
+	| {{{field|日配CV|input type=text}}}
+	|-
+	! 性别:
+	| {{{field|性别|input type=text}}}
+	|-
+	! 国籍:
+	| {{{field|国籍|input type=text}}}
+	|-
+	! 生日:
+	| {{{field|生日|input type=text}}}
+	|-
+	! 身高:
+	| {{{field|身高|input type=text}}}
+	|-
+	! 真名:
+	| {{{field|真名|input type=text}}}
+	|-
+	! 个人经历:
+	| {{{field|个人经历|input type=textarea|placeholder=段落之间的换行符用<br>分开}}}
+	|-
+	! 过往追溯:
+	| {{{field|过往追溯|input type=textarea|placeholder=段落之间的换行符用<br>分开}}}
+	|-
+	! 语音:
+	| {{{field|语音|input type=textarea|placeholder=段落之间的换行符用<br>分开}}}
+	|}
+	{{{end template}}}
+
+	{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+
+	{{{standard input|save}}}
+	{{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+
+{{#css:
+form th{
+color : white !important;
+padding: 7px 5px;
+}
+
+form textarea{
+margin: 5px;
+}
+
+form a{
+color: #ef5252;
+}
+
+form label{
+color : white !important;
+}
+
+}}
