@@ -1,0 +1,22 @@
+<div class="text-box">[[File:文字框.png]]<a href="首页" class="item">{{{ 1 }}}</a></div>
+{{#css:
+.text-box{
+position: relative;
+text-align: center;
+display: inline-block;
+margin-left: 4px !important;
+}
+a.item{
+position: absolute;
+left: 0px;
+top: 8px;
+width: 100%;
+font-size: 18;
+text-decoration: none;
+color: #a99366;
+}
+.text-box img{
+width: 120px;
+height: 40px;
+}
+}}

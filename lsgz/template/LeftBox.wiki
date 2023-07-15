@@ -1,0 +1,56 @@
+<div class="box">
+	<div class="header">
+		<div class="box-title">{{{ titleImg }}}</div>
+	</div>
+	<div class="body">
+		<div style="height: {{{ height }}}px"></div>
+	</div>
+	<div class="footer">
+		<div class="box-flower">[[File:花花.png]]</div>
+	</div>
+</div>
+<bstyle>
+.box {
+padding: 10px;
+}
+.box-title{
+float: left;
+display: inline;
+width: 48%;
+position: absolute;
+top: -20px;
+left: 0px;
+}
+.box-flower{
+float: left;
+display: inline;
+width: 48%;
+position: absolute;
+right: 0px;
+}
+.header {
+width: 100%;
+background-size: 100%,100%;
+background-image: url(https://patchwiki.biligame.com/images/ygl/a/a6/ojoqyf4g7xs4dcw5643mplbbv6w3wve.png);
+background-repeat: no-repeat,no-repeat;
+background-attachment: scroll,scroll,scroll;
+height: 29px;
+position: relative;
+}
+.body{
+width: 100%;
+background-image: url(https://patchwiki.biligame.com/images/ygl/e/e9/o1ri7me0yoindvw9sonw1leyn0s1q8z.png);
+background-size: 100%,100%;
+background-attachment: scroll,scroll,scroll;
+padding: 0 5%;
+}
+.footer{
+width: 100%;
+background-image: url(https://patchwiki.biligame.com/images/ygl/e/e0/h3pp02ukeb8fr827seiey00uzz2yqzs.png);
+background-size: 100%,100%;
+background-repeat: no-repeat,no-repeat;
+background-attachment: scroll,scroll,scroll;
+height: 70px;
+position: relative;
+}
+</bstyle>
