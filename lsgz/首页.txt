@@ -1,7 +1,6 @@
-
 <div class="row">
 	<div class="col-sm-12" style="text-align:center;margin-bottom: 30px;color: #95773d">
-		本WIKI由XXX于2023年06月20日申请开通，编辑权限开放，建议收藏。<br>
+		本WIKI于2023年06月20日申请开通，编辑权限开放，建议收藏。<br>
 		<br>
 		期待更多公主加入摇光录WIKI中<br>
 		反馈留言 · 编辑教程 · 收藏方法 · 加入QQ频道<br>
@@ -9,15 +8,31 @@
 	</div>
 	<div class="col-sm-3">
 		<div class="ibox section">
-			<div class="avatar title">[[File:公主头像.png|link=首页]][[File:公主头像.png|link=首页]][[File:公主头像.png|link=首页]][[File:公主头像.png|link=首页]]</div>
-			<div class="article">{{LeftBox|height=220|titleImg=[[File:当期卡池.png|link=首页]]}}</div>
+			<div class="article avatar">
+				{{LeftBox
+				|titleImg=[[File:当期卡池.png|link=首页]]
+				|boxStyle=text-align:center
+				|content=[[File:青魂up池2.png|link=首页]]
+				}}
+			</div>
 		</div>
 		<div class="section">
-			<div class="article">{{LeftBox|height=400|titleImg=[[File:最新资讯.png|link=首页]]}}</div>
+			<div class="article">
+				{{LeftBox
+				|titleImg=[[File:最新资讯.png|link=最新资讯]]
+				|content={{文章列表详细|分类=最新资讯|template=标签和标题|limit=15}}
+				}}
+			</div>
 		</div>
 
 		<div class="section">
-			<div class="article">{{LeftBox|height=300|titleImg=[[File:热门攻略.png|link=首页]]}}</div>
+			<div class="article">
+				{{LeftBox
+				|titleImg=[[File:热门攻略.png|link=热门攻略]]
+				|content={{文章列表详细|分类=热门攻略|template=标签和标题|limit=20}}
+				}}
+			</div>
+
 		</div>
 	</div>
 
@@ -25,75 +40,86 @@
 		<div>
 			{{板块
 			|轮播图
-			|图1=[[File:轮播图Demo.png|link=首页]]
-			|图2=[[文件:轮播图Demo.png|link=首页]]
-			|图3=[[文件:轮播图Demo.png|link=首页]]
+			|图1=[[File:0725公测开启.png|link=https://ygl.miaoacg.com/?mark_id=999_reallog_mark_ad%3A999%7CWeiboADNatural]]
+			|图2=[[文件:Up主激励计划.png|link=https://www.bilibili.com/blackboard/activity-1IU17Rrd9V.html?bbid=843C60E0-7956-77E8-4994-19A193EA16C373861infoc&native.theme=2&night=1&plat_id=124&share_from=h5&share_medium=iphone&share_plat=ios&share_session_id=CF115D42-C96C-4FE9-A433-60AC166A046D&share_source=COPY&share_tag=s_i&timestamp=1690261514&ts=1690261510147&unique_k=rrVgbfa]]
+			|图3=[[File:轮播图Demo.png|link=首页]]
 			}}
 		</div>
 		<div class="section">
-			<div class="img4">[[File:名士传记.png|link=首页]][[File:游历攻略.png|link=首页]][[File:摇光插画集-1.png|link=首页]][[File:活动资讯.png|link=首页]]</div>
+			<div class="img4">[[File:名士传记.png|link=首页]][[File:游历攻略.png|link=热门攻略]][[File:摇光插画集-1.png|link=首页]][[File:活动资讯.png|link=最新资讯]]</div>
 		</div>
 		<div class="section">
 			<div class="img-title">[[File:摇光派对-标题.png|link=首页]]</div>
 			<div class="article">
-				<div class="img-title">[[File:摇光派对-图片.png|link=首页]]</div>
-				<div class="img-title">[[File:摇光派对-图片.png|link=首页]]</div>
+				<div>{{摇光派对}}</div>
 			</div>
 		</div>
-		<div class="section">
-			<div class="img-title">[[File:摇光录-标题.png|link=首页]]</div>
-			<div class="article">{{ChapterList|第一章,第二章,第三章,第四章,第一章,第二章,第三章,第四章}}</div>
-		</div>
-		<div class="section">
+		<div class="section top-neg">
+        			<div class="img-title">[[File:摇光录-标题.png|link=首页]]</div>
+        			<div class="article small">{{角色图鉴}}</div>
+        		</div>
+		<div class="section ">
 			<div class="img-title">[[File:游历-标题.png|link=首页]]</div>
-			<div class="article">{{ChapterList|第一章,第二章,第三章,第四章,第一章,第二章,第三章,第四章}}</div>
+			<div class="article small">{{摇光录章节}}</div>
 		</div>
 		<div class="section">
 			<div class="img-title">[[File:封邑-标题.png|link=首页]]</div>
-			<div class="article">{{ChapterList|第一章,第二章,第三章,第四章,第一章,第二章,第三章,第四章}}</div>
+			<div class="article small item-box">{{ChapterList|花粉厂,木材厂,天机渡,稀物阁,手工铺,息壤庄,御泥坊,木雕厂}}</div>
 		</div>
 		<div class="section">
 			<div class="img-title">[[File:灵犀-标题.png|link=首页]]</div>
-			<div class="article">{{ChapterList|第一章,第二章,第三章,第四章,第一章,第二章,第三章,第四章}}</div>
+			<div class="article small item-box">{{ChapterList|李睿待卿归,李睿梦荷记,青魂规矩,青魂不倦,陆鸣恍然一梦,苏洛冬日雪,容凛匪郎夜话,阿伏罗回礼,孙怀瑾重逢,陈齐勿忧,方平探真假,尹重大风将至,奉渊生辰药,段敖坠马,师无弦买药,陈修夜谭,韩侑围猎之约,陈齐双人游,叶斐欲望,周棠坊间甜食,吴亥寅夜相邀,顾昭股掌之间,蒙蚩意外,赵横此心许你}}</div>
 		</div>
 	</div>
 
 	<!--右栏开始-->
 	<div class="col-sm-3 mp">
 		<div class="section">
-			<div class="article">[[File:兑换码合集.png|link=首页]]</div>
+			<div class="article img-event">[[File:点击创建文章按钮.png|link=表单]]</div>
 		</div>
-		<div class="section event">
+		<div class="section">
 			<div class="img-event">[[File:活动日程.png|link=首页]]</div>
-			<div class="article">
+			<div class="article event">
 				<div class="section">
-					<div>[[File:活动1.png]]</div>
-					<div class="event-text">距离活动结束还有 <span>3天22小时40分钟</span></div>
+					<div>[[File:荷风十里活动动态.png|link=https://www.bilibili.com/opus/823748987646378056?spm_id_from=333.999.0.0]]</div>
+					<!-- <div class="event-text">距离活动结束还有 <span>3天22小时40分钟</span></div> -->
+					<div class="active-content event-text">{{计时|2023|8|11|显示时间=活动结束|编号=1}}</div>
 				</div>
 				<div class="section">
-					<div>[[File:活动2.png]]</div>
-					<div class="event-text">距离活动结束还有 <span>3天22小时40分钟</span></div>
+					<div>[[File:摇光激励计划动态.png|link=https://www.bilibili.com/opus/822162212233674865?spm_id_from=333.999.0.0]]</div>
+					<div class="active-content event-text">{{计时|2023|8|25|显示时间=活动结束|编号=2}}</div>
 				</div>
 				<div class="section">
-					<div >[[File:活动3.png]]</div>
-					<div class="event-text">距离活动结束还有 <span>3天22小时40分钟</span></div>
+					<div >[[File:妙笔绘山河动态.png|link=https://weibo.com/7716698698/NbsY7demn]]</div>
+					<div class="active-content event-text">{{计时|2023|8|14|显示时间=活动结束|编号=3}}</div>
 				</div>
 				<div class="section">
-					<div >[[File:活动4.png]]</div>
-					<div class="event-text">距离活动结束还有 <span>3天22小时40分钟</span></div>
+					<div >[[File:摇光录超话幸运转盘动态.png|link=https://weibo.com/7716698698/NbsAc9Tkp]]</div>
+					<div class="active-content event-text">{{计时|2023|8|7|显示时间=活动结束|编号=4}}</div>
 				</div>
 			</div>
 		</div>
 		<div class="section">
-			<div class="article">{{LeftBox|height=100|titleImg=[[File:游戏下载.png|link=首页]]}}</div>
+			<div class="article">{{LeftBox|content=[[File:游戏下载二维码.png]]|titleImg=[[File:游戏下载.png|link=首页]]}}</div>
 		</div>
 		<div class="section">
-			<div class="article">{{LeftBox|height=100|titleImg=[[File:相关链接.png|link=首页]]}}</div>
+			<div class="article">{{LeftBox|height=100|titleImg=[[File:相关链接.png|link=首页]]|content=<div class="other-href">
+	<div><a href="https://space.bilibili.com/1829172354">摇光录：乱世公主B站</a></div>
+	<div><a href="https://weibo.com/u/7716698698">摇光录：乱世公主微博</a></div>
+	<div><a href="https://www.taptap.cn/app/226664?utm_medium=rep&utm_source=rep_uum8qmtsevq">摇光录：乱世公主taptap</a></div>
+	<div><a href="https://www.3839.com/a/139497.htm">摇光录：乱世公主好游快爆</a></div>
+</div>
+}}</div>
+			<bilicontributors>1829172354</bilicontributors>
 		</div>
 	</div>
-	<div class="col-sm-12">[[File:摇光插画集.png|link=首页]]</div>
+	<div class="col-sm-12 gallery">{{画廊}}</div>
 </div>
 {{#css:
+.gallery{
+max-width: 99%;
+overflow-x: hidden;
+}
 div.event{
 margin-bottom: 45px !important;
 }
@@ -106,7 +132,7 @@ width: 70%;
 }
 .event-text{
 color: #95773d;
-font-size: 12;
+font-size: 10;
 font-weight: 600;
 text-align: right;
 letter-spacing: 1;
@@ -121,11 +147,14 @@ margin: 5px 0px;
 div.section{
 margin: 15px 0px;
 }
-.item{
+.text-item{
 position: absolute;
+font-family: "Microsoft YaHei", Arial, sans-serif, "PingFang SC";
+font-size: 14;
+top: 11;
 }
 .img-title img{
-width: 98%;
+width: 85%;
 }
 .img4 {
 width: 100%;
@@ -137,12 +166,43 @@ margin-left: 1%;
 .ibox{
 position: relative
 }
-.avatar{
-position: absolute;
-margin: 40px 20px 10px;
+.small a.text-item {
+font-size: 14;
+top: 11;
 }
-.avatar img{
-width: 44%;
-margin: 3%;
+.user-follow-wrap {
+width: 100%;
 }
+.avatar .box-content img{
+width: 49%;
+margin-left: 1%;
+}
+li.active .text-item, .text-item:hover{
+font-weight: bold;
+}
+.text-box a:hover,.text-box a:visited{
+text-decoration: none;
+color: #a99366;
+}
+
+.item-box .text-box,.resp-tabs-list li{
+width: 25%
+}
+.ChapterBox{
+text-align: center
+}
+.event img{
+width: 100%;
+border-radius: 10px;
+}
+
+.top-neg{
+margin-top:-35px !important;
+}
+@media only screen and (max-width:759px){
+.top-neg{
+margin-top:-15px !important;
+}
+}
+
 }}
