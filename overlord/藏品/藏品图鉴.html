@@ -1,0 +1,49 @@
+{|class="wikitable" style="width:100%"
+|-
+!width="80px"|查看全部
+|
+{{Select|0|0|查看全部}}
+|-
+!获取途径
+|
+{{#arraymap: 宝物库获取,其他| ,|@| {{Select|1|@|}}|&nbsp;}}
+|-
+!套装属性
+|
+{{#arraymap: 15%防御,15%生命,15%攻击,15%暴击率,30%效果命中,30%效果抵抗| ,|@| {{Select|2|@|}}|&nbsp;}}
+|}
+
+<div style="overflow-x:hidden;">
+	{|id="CardSelectTr" class="CardSelect wikitable sortable"  style="text-align:center;color:white; width:100%"
+	|-id="CardSelectTabHeader" style="background-color:#C4C4C4;"
+	! 藏品
+	! 套装名称
+	! 套装属性
+	! 套装效果
+	! 获取途径
+	{{#ask: [[分类:藏品]]
+	|? 藏品图标ID=藏品图标ID
+	|? 藏品ID=藏品ID
+	|? 名称=名称
+	|? 套装属性=套装属性
+	|? 套装效果=套装效果
+	|? 套装名称=套装名称
+	|? 获取途径=获取途径
+	|named args=yes
+	|format=template
+	|template=藏品/行
+	}}
+	|}
+</div>
+{{#css:
+li.btn.cardSelectOption.selected {
+color: white !important;
+background-color: #be9b64 !important;
+}
+.wikitable {
+background-color: #2c2c2c !important;
+}
+#CardSelectTabHeader th{
+background-color: #000000;
+}
+}}
